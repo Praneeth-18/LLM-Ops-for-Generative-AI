@@ -1,0 +1,10 @@
+openai_api_key: ""
+model_settings:
+  temperature: 0.3
+  max_tokens: 500
+vector_store:
+  chunk_size: 1000
+  chunk_overlap: 200
+logging:
+  level: DEBUG
+  file: app.log

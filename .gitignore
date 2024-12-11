@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+
+# Node
+node_modules/
+npm-debug.log
+
+# Generated files
+app/static/js/app.js
+vectorstore/
+
+# Environment and config
+.env
+config/config.yaml
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db

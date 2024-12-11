@@ -1,0 +1,14 @@
+{
+    "name": "document-analyzer-ui",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "esbuild app/static/js/app.jsx --bundle --outfile=app/static/js/app.js"
+    },
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "esbuild": "^0.14.54"
+    }
+  }
